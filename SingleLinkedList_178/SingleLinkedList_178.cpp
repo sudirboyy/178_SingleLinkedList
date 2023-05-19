@@ -147,7 +147,7 @@ int main() {
             switch (pilihan)
             {
             case 1:
-                addNode();
+                addNote();
                 cout << "Data Berhasil Ditambahkan" << endl;
                 system("pause");
                 system("cls");
@@ -184,3 +184,9 @@ int main() {
                 break;
             }
         }
+        catch (exception e)
+        {
+            cout << "Terjadi kesalahan" << endl;
+        }
+    } while (pilihan != 5);
+}
