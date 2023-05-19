@@ -93,7 +93,7 @@ bool listEmpty() {
 
 void traverse() {
     if (listEmpty()) {
-        cout << "List kosong" << endl;
+        cout << "List Kosong" << endl;
         system("pause");
         system("cls");
         return;
@@ -109,7 +109,7 @@ void traverse() {
 
 void searchData() {
     if (listEmpty()) {
-        cout << "List kosong" << endl;
+        cout << "List Kosong" << endl;
         system("pause");
         system("cls");
         return;
@@ -142,7 +142,7 @@ int main() {
             cout << "3. Tampilkan Data" << endl;
             cout << "4. Cari Data" << endl;
             cout << "5. Keluar" << endl;
-            cout << "pilihan: ";
+            cout << "Pilihan: ";
             cin >> pilihan;
             switch (pilihan)
             {
