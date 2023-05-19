@@ -26,6 +26,12 @@ void addNote() {
             cout << " NIM sudah ada " << endl;
             return;
         }
+
+        nodeBaru->next = START;
+        START = nodeBaru;
+        return;
+    }
+
         Node* current = START;
         Node* previous = START;
 
@@ -41,6 +47,6 @@ void addNote() {
         }
 
         nodeBaru->next = current;
-        nodeBaru->next = nodeBaru;
+        previous->next = nodeBaru;
     }
 
