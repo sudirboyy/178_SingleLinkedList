@@ -160,6 +160,7 @@ int main() {
                     system("cls");
                     break;
                 }
+
                 int nim;
                 cout << "Masukan NIM: ";
                 cin >> nim;
@@ -188,5 +189,6 @@ int main() {
         {
             cout << "Terjadi kesalahan" << endl;
         }
+
     } while (pilihan != 5);
 }
